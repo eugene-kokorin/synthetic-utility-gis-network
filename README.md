@@ -27,6 +27,20 @@ All infrastructure objects, attributes, IDs, and technical parameters are synthe
 
 ---
 
+## Topology Validation Principles
+
+The project follows basic utility GIS topology rules:
+
+- MV and LV lines must maintain geometric continuity
+- Power poles act as network connection nodes
+- Feeders must terminate at valid infrastructure objects
+- Consumer branches must remain connected to LV distribution lines
+- Synthetic asset IDs and attributes follow utility-style hierarchy logic
+
+The model is designed for GIS infrastructure practice, topology understanding, and utility data structuring.
+
+---
+
 ## Project Status
 
 LEVEL 1 — Basic synthetic utility network modeling.
